@@ -1,0 +1,23 @@
+{
+  "name": "api-gateway",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/superj80820/api-gateway.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/superj80820/api-gateway/issues"
+  },
+  "homepage": "https://github.com/superj80820/api-gateway#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-http-proxy": "^1.6.0"
+  }
+}
