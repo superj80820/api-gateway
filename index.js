@@ -10,6 +10,8 @@ app.use('/messfar-line-service', proxy('http://messfar-line-service:3002'))
 
 app.use('/auth-service', proxy('http://auth-service:3005'))
 
+app.use('/ad-service', proxy('http://ad-service:3006'))
+
 app.use(
   '/file-service',
   authMeddleware.verifyToken,
